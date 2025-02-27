@@ -19,9 +19,11 @@ function Home() {
       </div>
       <div className="projects">
         <p>Projects</p>
-        {Projects.map((project, index) => (
-          <ProjectCard key={index} project={project} />
-        ))}
+        <div className="project-cards flex justify-center gap-5">
+          {Projects.map((project, index) => (
+            <ProjectCard key={index} project={project} />
+          ))}
+        </div>
       </div>
     </div>
   );
