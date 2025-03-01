@@ -64,4 +64,9 @@ export const skills = [
     name: "TypeScript",
     image: icon.typescript,
   },
+  {
+    id: 13,
+    name: "Vite",
+    image: icon.vite,
+  },
 ];

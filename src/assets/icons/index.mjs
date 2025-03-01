@@ -10,6 +10,7 @@ import tailwind from "./tailwind.png";
 import bootstrap from "./bootstrap.png";
 import vscode from "./vscode.png";
 import typescript from "./typescript.png";
+import vite from "./vite.png";
 
 export {
   figma,
@@ -24,4 +25,5 @@ export {
   bootstrap,
   vscode,
   typescript,
+  vite,
 };
