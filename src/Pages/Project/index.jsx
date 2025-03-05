@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import { Projects } from "data/Projects";
 import { Link } from "react-router-dom";
+import { FaWindowMinimize } from "react-icons/fa6";
 
 export const Project = () => {
   const { id } = useParams();
@@ -14,13 +15,16 @@ export const Project = () => {
   return (
     <div className="project-main p-3">
       <div className="project-details border-2 border-selago">
-        <p className="w-fit px-2">
-          <Link to="/">Home</Link> / {project.title}
-        </p>
-        {/* <div className="project-title text-center">
-          <h1 className="text-3xl">{project.title}</h1>
-          {project.subtitle && <h2 className="text-xl">{project.subtitle}</h2>}
-        </div> */}
+        <div className="topbar flex justify-between items-center p-2 bg-selago text-firefly">
+          <p className="w-fit px-2">
+            <Link to="/">Home</Link> / {project.title}
+          </p>
+          <Link to="/">
+            <div className="more-btn win-btn h-8 w-8 flex justify-center items-center">
+              <FaWindowMinimize />
+            </div>
+          </Link>
+        </div>
         <img src={project.image} alt={project.title} />
         <div className="project-title text-center">
           <h1 className="text-3xl">{project.title}</h1>
