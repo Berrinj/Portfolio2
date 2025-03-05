@@ -3,5 +3,6 @@ import markedhub from "./markedhub-preview.png";
 import holidaze from "./holidaze-preview.png";
 import businessCard from "./digitalbusinesscard-preview.png";
 import fenty from "./fenty-preview.png";
+import woopsie from "./woopsie-preview.png";
 
-export { bidhub, markedhub, holidaze, businessCard, fenty };
+export { bidhub, markedhub, holidaze, businessCard, fenty, woopsie };
