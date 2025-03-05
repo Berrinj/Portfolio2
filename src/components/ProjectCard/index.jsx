@@ -86,17 +86,14 @@ export const ProjectCard = ({ project }) => {
         />
         <div className="info p-4 grow flex flex-col justify-between">
           <p>
-            <span className="bg-selago text-firefly">About:</span>
-            {""} {project.description}
+            <span className="bg-selago text-firefly">Om prosjektet:</span>
+            {""} {project.shortDescription}
           </p>
         </div>
         <div className="bg-selago w-full h-auto">
           <div className="links h-14 flex items-center flex-wrap">
             <Link to={`/projects/${project.id}`}>
-              <button
-                className="bg-selago text-firefly hover:rounded-none hover:bg-white hover:text-firefly win-btn p-1 mx-3"
-                // onClick={openProject}
-              >
+              <button className="bg-selago text-firefly hover:rounded-none hover:text-firefly win-btn p-1 mx-3">
                 <VscMultipleWindows />
               </button>
             </Link>
