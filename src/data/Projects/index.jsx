@@ -11,8 +11,11 @@ export const Projects = [
     title: "Holidaze",
     subtitle: "Project Exam 2",
     shortDescription:
-      "A venue booking/manager website, created for my second and last exam at Noroff.",
-    description: "Kommer mer her.",
+      "Et nettsted for booking/publisering av lokaler, opprettet for min andre og siste eksamen på Noroff.",
+    description:
+      "Et nettsted for booking/publisering av lokaler, opprettet for min andre og siste eksamen på Noroff. Ved bruk av Noroffs API og React, lagde jeg en nettside for booking av hotellrom, leiligheter, sommerhus, etc. Jeg designet og utviklet hele nettsiden, brukte Figma for å lage designet, og blant annet React og JavaScript for å lage funksjonaliteten på nettsiden.\n\nEn bruker kan registrere seg som en `Venue Manager` eller vanlig `Kunde`. Begge brukertypene kan endre sin profil, booke en lokasjon, se/slette en booking, og søke etter en lokasjon på bakgrunn av navn eller beskrivelse. En `Venue Manager` kan i tillegg legge til, endre og slette lokaler, samt se bookinger på sine lokaler.\n\nNettsiden er responsiv og fungerer på alle skjermstørrelser.",
+    additonalInfo:
+      "Om du ønsker å teste hele siden trenger du en bruker. Denne brukeren må ha en @stud.noroff.no email for kunne registrere seg, men denne kan være fiktiv. P.S: Dette prosjektet er bygget på Noroff sin API, så det er forventet at du ikke bryter vanlig etikk og moral da den er åpen for alle studenter og lærere + besøkende.",
     image: image.holidaze,
     alt: "Holidaze website preview",
     skills: mapSkillsToObjects(["figma", "react", "javascript"]),
@@ -40,6 +43,8 @@ export const Projects = [
     shortDescription:
       "En online auksjons-side der en bruker kan legge ut og by på varer. Bygget på noroffs API og hva jeg hadde lært over 3 semester.",
     description: "Kommer mer her.",
+    additonalInfo:
+      "Om du ønsker å teste hele siden trenger du en bruker. Denne brukeren må ha en @stud.noroff.no email for kunne registrere seg, men denne kan være fiktiv. P.S: Dette prosjektet er bygget på Noroff sin API, så det er forventet at du ikke bryter vanlig etikk og moral da den er åpen for alle studenter og lærere + besøkende.",
     image: bidhub,
     netlifyUrl: "https://bidhub-auction.netlify.app/",
     githubUrl: "https://github.com/Berrinj/BidHub",
@@ -79,6 +84,8 @@ export const Projects = [
     shortDescription:
       "En sosiale media applikasjon bygget på min JavaScript kunskap og front-end funksjonalitet.",
     description: "Kommer mer her.",
+    additonalInfo:
+      "Om du ønsker å teste hele siden trenger du en bruker. Denne brukeren må ha en @noroff.no eller @stud.noroff.no email for kunne registrere seg, men denne kan være fiktiv. P.S: Dette prosjektet er bygget på Noroff sin API, så det er forventet at du ikke bryter vanlig etikk og moral da den er åpen for alle studenter og lærere + besøkende.",
     image: image.woopsie,
     skills: mapSkillsToObjects(["JavaScript", "html", "css"]),
     netlifyUrl: "https://woopsie.netlify.app/",
