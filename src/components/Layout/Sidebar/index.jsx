@@ -1,5 +1,5 @@
 import { SkillsBadge } from "components/SkillsBadge";
-import { skills } from "data/skills";
+import { skills } from "data/Skills";
 
 const convertSkillsToArray = () => {
   return Object.values(skills);
