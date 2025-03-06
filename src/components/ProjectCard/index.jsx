@@ -3,7 +3,6 @@ import { FaGithub } from "react-icons/fa";
 import { SiNetlify } from "react-icons/si";
 import styled from "styled-components";
 import { VscMultipleWindows } from "react-icons/vsc";
-// import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 const ProjectViewBtn = styled.a`
@@ -64,14 +63,6 @@ const ProjectViewBtn = styled.a`
 `;
 
 export const ProjectCard = ({ project }) => {
-  // const navigate = useNavigate();
-
-  // const openProject = () => {
-  //   console.log("this will open the project page");
-  //   navigate(`/projects/${project.id}`);
-  // };
-  console.log(project);
-
   return (
     <>
       <div className="project-card my-2 min-w-[290px] w-9/10 sm:w-3/10 border-2 border-selago text-white flex flex-col">
@@ -121,12 +112,6 @@ export const ProjectCard = ({ project }) => {
             </ProjectViewBtn>
           </div>
         </div>
-        {/* <button
-          className="w-full bg-selago text-firefly hover:rounded-none hover:bg-white hover:text-firefly win-btn"
-          onClick={openProject}
-        >
-          See More
-        </button> */}
       </div>
     </>
   );
