@@ -5,12 +5,12 @@ export const Header = () => {
         <p className="bg-firefly text-selago w-fit font-thin absolute top-0 right-0 sm:left-0">
           Front-end Utvikler
         </p>
-        <div className="name w-fit h-full m-auto sm:m-0 px-10 flex flex-col justify-center">
+        <div className="name w-fit h-full m-auto sm:m-0 px-5 sm:px-10 flex flex-col justify-center">
           <p className="text-firefly text-sm">Hallo, mitt navn er</p>
           <h1 className="text-firefly w-fit text-6xl/10 md:text-8xl/16 tracking-widest">
             Marte
           </h1>
-          <h1 className="bg-firefly text-selago w-fit text-6xl sm:text-7xl lg:text-8xl ">
+          <h1 className="bg-firefly text-selago w-fit text-5xl sm:text-7xl lg:text-8xl ">
             Lilleberre
           </h1>
         </div>
