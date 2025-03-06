@@ -5,6 +5,7 @@ import { FaWindowMinimize } from "react-icons/fa6";
 import { useState } from "react";
 import { SkillsBadge } from "components/SkillsBadge";
 import { skills } from "data/Skills";
+import myImage from "assets/images/profilbilde-300.png";
 
 const convertSkillsToArray = () => {
   return Object.values(skills);
@@ -44,7 +45,7 @@ function Home() {
         <div className="about-container p-3 ">
           <div className="first-look flex">
             <img
-              src="src/assets/images/profilbilde-300.png"
+              src={myImage}
               alt="Marte"
               className="sm:hidden w-32 h-auto max-h-[170px] object-contain border-2 border-selago me-2"
             />
