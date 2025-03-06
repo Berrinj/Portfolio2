@@ -4,7 +4,7 @@ import { VscMultipleWindows } from "react-icons/vsc";
 import { FaWindowMinimize } from "react-icons/fa6";
 import { useState } from "react";
 import { SkillsBadge } from "components/SkillsBadge";
-import { skills } from "data/skills";
+import { skills } from "data/Skills";
 
 const convertSkillsToArray = () => {
   return Object.values(skills);
