@@ -9,6 +9,10 @@ const StyledLiItem = styled.li`
   text-transform: uppercase;
   font-weight: 600;
   cursor: pointer;
+  &:hover {
+    background-color: var(--color-firefly);
+    color: var(--color-selago);
+  }
 `;
 
 export const Nav = () => {
@@ -33,11 +37,10 @@ export const Nav = () => {
   };
 
   return (
-    <div className="nav w-full flex justify-center relative p-4">
-      <p className="uppercase text-white text-center grow opacity-50">
-        BerreMarte.no
+    <div className="nav w-full flex justify-between p-2 sm:p-4 fixed top-0 left-0 bg-firefly z-10 sm:z-0 sm:relative md:bg-transparent">
+      <p className="uppercase text-white text-left sm:text-center grow opacity-50">
+        <Link to="/">BerreMarte.no</Link>
       </p>
-      {/* <nav className="absolute top-4 right-4"> */}
       <nav className="">
         <ul className="flex gap-4 flex-wrap">
           <Link to="/">
@@ -45,7 +48,7 @@ export const Nav = () => {
           </Link>
           <StyledLiItem onClick={handleMoreClick}>Meny</StyledLiItem>
           {isMoreOpen && (
-            <div className="dropdown absolute top-14 right-0 z-30 sm:z-0 w-full sm:w-92 h-46 md:h-64 bg-firefly p-10 text-firefly flex flex-col justify-center items-center  border-2 border-selago ">
+            <div className="dropdown absolute top-10 sm:top-14 right-0 z-30 sm:z-0 w-full sm:w-92 h-46 md:h-64 bg-firefly p-10 text-firefly flex flex-col justify-center items-center  border-2 border-selago ">
               <IoMdClose
                 className="close-btn win-btn absolute top-4 right-4 cursor-pointer text-selago"
                 onClick={handleMoreClick}
