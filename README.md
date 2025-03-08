@@ -1,5 +1,7 @@
 # Portfolio 2 CA
 
+![Portfolio 2 Preview](src/assets/images/projects/portfolio2-preview.png) <br>
+
 Noroff Portfolio 2 CA, March 2025<br>
 [View the website live on Netlify](https://berremarte.netlify.app/)
 
