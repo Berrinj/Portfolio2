@@ -1,11 +1,14 @@
 import { ProjectCard } from "components/ProjectCard";
 import { Projects } from "data/Projects";
 import { VscMultipleWindows } from "react-icons/vsc";
-import { FaWindowMinimize } from "react-icons/fa6";
+import { FaWindowMinimize, FaSquareGithub } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 import { useState } from "react";
 import { SkillsBadge } from "components/SkillsBadge";
 import { skills } from "data/Skills";
 import myImage from "assets/images/profilbilde-300.png";
+import { Link } from "react-router-dom";
 
 const convertSkillsToArray = () => {
   return Object.values(skills);
@@ -56,22 +59,42 @@ function Home() {
             </p>
           </div>
           {isAboutOpen && (
-            <div className="about-text">
-              <p className="my-2">
-                Jeg har jobbet i barnehage de siste 10 årene, men jeg har alltid
-                visst at jeg ville gå i en helt annen retning. På fritiden har
-                koding vært en hobby så lenge jeg kan huske, men med
-                fulltidsjobb, barn og lite fritid for meg selv, fikk jeg sjelden
-                mettet lærelysten.
-              </p>
+            <>
+              <div className="about-text">
+                <p className="my-2">
+                  Jeg har jobbet i barnehage de siste 10 årene, men jeg har
+                  alltid visst at jeg ville gå i en helt annen retning. På
+                  fritiden har koding vært en hobby så lenge jeg kan huske, men
+                  med fulltidsjobb, barn og lite fritid for meg selv, fikk jeg
+                  sjelden mettet lærelysten.
+                </p>
 
-              <p>
-                I mars 2023 begynte jeg på fulltids-utdanningen Front-End
-                Development hos Noroff School of Technology and Digital Media,
-                og jeg er utrolig stolt over hva jeg har lært meg og produsert
-                disse årene uten at det har gått utover familie og jobb.
-              </p>
-            </div>
+                <p>
+                  I mars 2023 begynte jeg på fulltids-utdanningen Front-End
+                  Development hos Noroff School of Technology and Digital Media,
+                  og jeg er utrolig stolt over hva jeg har lært meg og produsert
+                  disse årene og er klar for nye utfordringer i arbeidslivet!
+                </p>
+              </div>
+              <div className="contact-icons flex gap-3 py-6 justify-center">
+                <Link
+                  to="https://www.linkedin.com/in/marte-lilleberre/"
+                  target="_blank"
+                  className="flex items-center gap-2"
+                >
+                  <FaLinkedin className="h-8 w-8" />
+                </Link>
+                <a
+                  href={`mailto:berremarte@gmail.com`}
+                  className="flex items-center gap-2"
+                >
+                  <MdEmail className="h-8 w-8" />
+                </a>
+                <Link to="https://github.com/berrinj" target="_blank">
+                  <FaSquareGithub className=" h-8 w-8" />
+                </Link>
+              </div>
+            </>
           )}
         </div>
       </div>
@@ -143,6 +166,37 @@ function Home() {
       >
         <div className="bg-selago h-fit min-w-[250px] w-fit p-2 flex justify-center items-center text-firefly">
           <p className="text-xl">Kontakt: </p>
+        </div>
+        <div className="contact-container p-4 w-full flex flex-wrap sm:justify-around">
+          <div className="linkedin w-full sm:w-auto  py-3">
+            <Link
+              to="https://www.linkedin.com/in/marte-lilleberre/"
+              target="_blank"
+              className="flex items-center gap-2"
+            >
+              <FaLinkedin className=" h-16 w-16" />
+              <span>LinkedIn</span>
+            </Link>
+          </div>
+          <div className="email w-full sm:w-auto py-3">
+            <a
+              href={`mailto:berremarte@gmail.com`}
+              className="flex items-center gap-2"
+            >
+              <MdEmail className=" h-16 w-16" />
+              <span>E-post</span>
+            </a>
+          </div>
+          <div className="github w-full sm:w-auto py-3 ">
+            <Link
+              to="https://github.com/Berrinj/"
+              target="_blank"
+              className="flex items-center gap-2"
+            >
+              <FaSquareGithub className=" h-16 w-16" />
+              <span>GitHub</span>
+            </Link>
+          </div>
         </div>
       </div>
     </div>
