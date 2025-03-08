@@ -2,6 +2,8 @@ import * as image from "assets/images/projects";
 import bidhub from "assets/images/projects/bidhub-preview.png";
 import { skills } from "data/Skills";
 
+//filter values: all, school, professional, personal>
+
 export const mapSkillsToObjects = (skillNames) => {
   return skillNames.map((skillName) => skills[skillName.trim().toLowerCase()]);
 };
@@ -21,7 +23,7 @@ export const Projects = [
     skills: mapSkillsToObjects(["figma", "react", "javascript"]),
     netlifyUrl: "https://holidaze-berrinj.netlify.app/",
     githubUrl: "https://github.com/Berrinj/Holidaze",
-    filter: "School",
+    filter: "school",
     id: 1,
   },
   {
@@ -34,7 +36,7 @@ export const Projects = [
     skills: mapSkillsToObjects(["javaScript", "sass", "html", "bootstrap"]),
     netlifyUrl: "https://markethub-ca.netlify.app/",
     githubUrl: "https://github.com/Berrinj/MarketHub",
-    filter: "School",
+    filter: "school",
     id: 2,
   },
   {
@@ -48,7 +50,7 @@ export const Projects = [
     image: bidhub,
     netlifyUrl: "https://bidhub-auction.netlify.app/",
     githubUrl: "https://github.com/Berrinj/BidHub",
-    filter: "School",
+    filter: "school",
     id: 3,
   },
   {
@@ -61,7 +63,7 @@ export const Projects = [
     skills: mapSkillsToObjects(["React"]),
     netlifyUrl: "https://berremarte-digital-business-card.netlify.app/",
     githubUrl: "https://github.com/Berrinj/digital-business-card",
-    filter: ["Personal,", "Learning"],
+    filter: "personal",
     id: 4,
   },
   {
@@ -75,7 +77,7 @@ export const Projects = [
     netlifyUrl: "https://fenty.netlify.app/",
     githubUrl:
       "https://github.com/Noroff-FEU-Assignments/project-exam-1-Berrinj",
-    filter: "School",
+    filter: "school",
     id: 5,
   },
   {
@@ -90,7 +92,7 @@ export const Projects = [
     skills: mapSkillsToObjects(["JavaScript", "html", "css"]),
     netlifyUrl: "https://woopsie.netlify.app/",
     githubUrl: "https://github.com/Berrinj/css-frameworks",
-    filter: "School",
+    filter: "school",
     id: 6,
   },
 ];
