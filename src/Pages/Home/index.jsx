@@ -16,12 +16,24 @@ const convertSkillsToArray = () => {
 
 function Home() {
   const [isAboutOpen, setIsAboutOpen] = useState(false);
+  const [filter, setFilter] = useState("all");
 
   const skillsArray = convertSkillsToArray();
 
   const handleAboutClick = () => {
     setIsAboutOpen(!isAboutOpen);
   };
+
+  const handleFilterChange = (event) => {
+    setFilter(event.target.value);
+  };
+
+  const filteredProjects = Projects.filter((project) => {
+    if (filter === "all") {
+      return true;
+    }
+    return project.filter === filter;
+  });
 
   return (
     <div className="home h-full min-h-96 p-3">
@@ -106,17 +118,19 @@ function Home() {
               name="filter"
               id="filter"
               className="text-center font-semibold"
+              value={filter}
+              onChange={handleFilterChange}
             >
               <option value="all">Alle</option>
               <option value="school">Skole</option>
-              <option value="fun">Små prosjekter</option>
-              <option value="personal">Personal</option>
+              {/* <option value="professional">Profesjonelle prosjekter</option> */}
+              <option value="personal">Personlige prosjekter</option>
             </select>
           </div>
         </div>
-        <div className="cards-container flex mx-auto justify-center">
+        <div className="cards-container flex mx-auto justify-center py-3">
           <div className="project-cards flex flex-wrap gap-3 justify-center">
-            {Projects.map((project, index) => (
+            {filteredProjects.map((project, index) => (
               <ProjectCard key={index} project={project} />
             ))}
           </div>
