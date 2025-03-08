@@ -31,7 +31,8 @@ export const Projects = [
     subtitle: "Javascript Frameworks",
     shortDescription:
       "Her brukte jeg min kunnskap om React for å bygge en eCom-butikk basert på Noroffs API.",
-    description: "Kommer mer her.",
+    description:
+      "MarkedHub er en e-handelsplattform utviklet ved bruk av React og Noroffs API. Prosjektet inkluderer flere sider som hjemmeside, produktside, handlekurv, utsjekksside og kontaktside.\n\n Hjemmesiden viser en liste over produkter med en søkefunksjon som filtrerer produkter basert på navn. Produktsiden viser detaljer om et enkelt produkt, inkludert tittel, beskrivelse, bilde og pris, samt en knapp for å legge til produktet i handlekurven. Handlekurvsiden viser en liste over produkter i handlekurven og en utsjekkingsknapp som fører til en suksessside for utsjekking. Kontaktsiden inneholder et kontaktskjema med validering for navn, emne, e-post og melding.\n\n Designet er responsivt og bruker React Router for navigasjon mellom sidene.",
     image: image.markedhub,
     skills: mapSkillsToObjects(["javaScript", "sass", "html", "bootstrap"]),
     netlifyUrl: "https://markethub-ca.netlify.app/",
@@ -44,7 +45,8 @@ export const Projects = [
     subtitle: "Semester Project 2",
     shortDescription:
       "En online auksjons-side der en bruker kan legge ut og by på varer. Bygget på noroffs API og hva jeg hadde lært over 3 semester.",
-    description: "Kommer mer her.",
+    description:
+      "BidHub er en auksjonsplattform utviklet ved bruk av Bootstrap og Noroffs API. Prosjektet inkluderer flere sider som registrering, innlogging, opprettelse av auksjoner, budgivning og visning av bud. Nye brukere får 1000 kreditter ved registrering, som kan brukes til å by på varer eller tjene ved å selge varer. Ikke-registrerte brukere kan søke gjennom auksjoner, men kun registrerte brukere kan legge inn bud.\n\n Plattformen er responsiv og fungere på alle skjermstørrelser",
     additonalInfo:
       "Om du ønsker å teste hele siden trenger du en bruker. Denne brukeren må ha en @stud.noroff.no email for kunne registrere seg, men denne kan være fiktiv. P.S: Dette prosjektet er bygget på Noroff sin API, så det er forventet at du ikke bryter vanlig etikk og moral da den er åpen for alle studenter og lærere + besøkende.",
     image: bidhub,
@@ -71,7 +73,8 @@ export const Projects = [
     subtitle: "Project Exam 1",
     shortDescription:
       "En blog/hjememside for alt Robyn Rihanna Fenty. Bygget på Wordpress Rest API.",
-    description: "Kommer mer her.",
+    description:
+      "Fenty Norge er en blogg og hjemmeside dedikert til alt om Robyn Rihanna Fenty. Prosjektet inkluderer flere sider som hjemmeside, om oss, liste over blogginnlegg, spesifikke blogginnlegg og kontaktside. Hjemmesiden har en 'Siste innlegg' seksjon designet som en karusell for desktop-versjonen. Blogginnleggssiden viser de første 10 innleggene med mulighet for å vise flere. Spesifikke blogginnleggssider bygges dynamisk basert på hvilken lenke brukeren klikker på. Kontaktsiden inneholder et kontaktskjema med validering for navn, e-postadresse, emne og melding. Innholdet for nettstedet hentes fra en WordPress-installasjon brukt som et Headless CMS.",
     image: image.fenty,
     skills: mapSkillsToObjects(["JavaScript", "Wordpress", "restAPI"]),
     netlifyUrl: "https://fenty.netlify.app/",
@@ -85,7 +88,8 @@ export const Projects = [
     subtitle: "JavaScript 2",
     shortDescription:
       "En sosiale media applikasjon bygget på min JavaScript kunskap og front-end funksjonalitet.",
-    description: "Kommer mer her.",
+    description:
+      "Woopsie er en sosial media applikasjon utviklet ved bruk av JavaScript og Noroffs API. Prosjektet inkluderer funksjoner som registrering, innlogging, visning av innholdsfeed, filtrering og søk av innhold, samt opprettelse, redigering og sletting av innlegg. Brukere kan registrere seg med en @noroff.no eller @stud.noroff.no e-postadresse, logge inn, og administrere sine innlegg. Applikasjonen er responsiv og bruker lokal lagring for å håndtere JWT-tokens.",
     additonalInfo:
       "Om du ønsker å teste hele siden trenger du en bruker. Denne brukeren må ha en @noroff.no eller @stud.noroff.no email for kunne registrere seg, men denne kan være fiktiv. P.S: Dette prosjektet er bygget på Noroff sin API, så det er forventet at du ikke bryter vanlig etikk og moral da den er åpen for alle studenter og lærere + besøkende.",
     image: image.woopsie,
