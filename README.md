@@ -11,11 +11,14 @@ This project uses React and Vite, and was designed in Figma. I was tasked to upa
 
 ## Built With
 
+- Tailwind
 - CSS
 - JavaScript
 - React
-- React Router
+  - React Router
+  - React-icons
 - Vite
+- Prettier
 
 ## Getting Started
 
