@@ -144,16 +144,16 @@ function Home() {
           <p className="text-xl">Utdanning: </p>
         </div>
         <div className="content p-3">
-          <h2 className="border-1 border-selago">2025</h2>
+          <h2 className="border-1 border-selago bg-selago/10 ps-1">2025</h2>
           <ul>
-            <li>
+            <li className="m-2">
               <span className="font-semibold">Mars: </span>Fullført 2-årige
               Front End Development-utdanning ved Noroff
             </li>
           </ul>
-          <h2 className="border-1 border-selago">2018</h2>
+          <h2 className="border-1 border-selago bg-selago/10 ps-1">2018</h2>
           <ul>
-            <li>
+            <li className="m-2">
               <span className="font-semibold">Oktober: </span> Fagbrev Barne- og
               ungdomsarbeider faget
             </li>
@@ -188,7 +188,7 @@ function Home() {
               target="_blank"
               className="flex items-center gap-2"
             >
-              <FaLinkedin className=" h-16 w-16" />
+              <FaLinkedin className="h-16 w-16 text-selago" />
               <span>LinkedIn</span>
             </Link>
           </div>
@@ -197,7 +197,7 @@ function Home() {
               href={`mailto:berremarte@gmail.com`}
               className="flex items-center gap-2"
             >
-              <MdEmail className=" h-16 w-16" />
+              <MdEmail className="h-16 w-16 text-selago" />
               <span>E-post</span>
             </a>
           </div>
@@ -207,7 +207,7 @@ function Home() {
               target="_blank"
               className="flex items-center gap-2"
             >
-              <FaSquareGithub className=" h-16 w-16" />
+              <FaSquareGithub className="h-16 w-16 text-selago" />
               <span>GitHub</span>
             </Link>
           </div>
