@@ -188,7 +188,7 @@ function Home() {
               target="_blank"
               className="flex items-center gap-2"
             >
-              <FaLinkedin className=" h-16 w-16" />
+              <FaLinkedin className="h-16 w-16 text-selago" />
               <span>LinkedIn</span>
             </Link>
           </div>
@@ -197,7 +197,7 @@ function Home() {
               href={`mailto:berremarte@gmail.com`}
               className="flex items-center gap-2"
             >
-              <MdEmail className=" h-16 w-16" />
+              <MdEmail className="h-16 w-16 text-selago" />
               <span>E-post</span>
             </a>
           </div>
@@ -207,7 +207,7 @@ function Home() {
               target="_blank"
               className="flex items-center gap-2"
             >
-              <FaSquareGithub className=" h-16 w-16" />
+              <FaSquareGithub className="h-16 w-16 text-selago" />
               <span>GitHub</span>
             </Link>
           </div>
