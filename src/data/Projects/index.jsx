@@ -60,7 +60,8 @@ export const Projects = [
     subtitle: "Scrimba Course",
     shortDescription:
       "Et digitalt visit-kort laget med React. Basert på et Scrimba kurs.",
-    description: "Kommer mer her.",
+    description:
+      "Som en del av et Scrimba kurs lagde jeg et digitalt visit-kort. Kortet inneholder informasjon om meg, som navn, tittel, bilde og en kort beskrivelse. Kortet er responsivt og fungerer på alle skjermstørrelser.",
     image: image.businessCard,
     skills: mapSkillsToObjects(["React"]),
     netlifyUrl: "https://berremarte-digital-business-card.netlify.app/",
