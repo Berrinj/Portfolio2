@@ -19,7 +19,7 @@ export const Project = () => {
       <div className="project-details border-2 border-selago">
         <div className="topbar flex justify-between items-center p-2 bg-selago text-firefly">
           <p className="w-fit px-2">
-            <Link to="/">Home</Link> / {project.title}
+            <Link to="/">Hjem</Link> / {project.title}
           </p>
           <Link to="/">
             <div className="more-btn win-btn h-8 w-8 flex justify-center items-center">
@@ -55,7 +55,7 @@ export const Project = () => {
             )}
           </div>
           <p className="border border-selago px-1 bg-selago/10">
-            Technologies Used:
+            Teknologier brukt:
           </p>
           {project.skills && project.skills.length > 0 ? (
             <ul className="flex flex-wrap gap-2 p-1 mt-2">
@@ -84,7 +84,7 @@ export const Project = () => {
               )}
             </ul>
           ) : (
-            <p>No skills listed for this project.</p>
+            <p>Ingen ferdigheter nevnt for dette prosjektet.</p>
           )}
         </div>
         <div className="buttons flex flex-wrap justify-around mt-3 bg-selago p-2 text-firefly">
@@ -94,7 +94,7 @@ export const Project = () => {
             rel="noreferrer"
             className="win-btn p-2"
           >
-            View on Netlify
+            Live på Netlify
           </a>
           <a
             href={project.githubUrl}
@@ -102,7 +102,7 @@ export const Project = () => {
             rel="noreferrer"
             className="win-btn p-2"
           >
-            View on GitHub
+            GitHub repo
           </a>
         </div>
       </div>
