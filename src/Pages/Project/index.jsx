@@ -21,8 +21,11 @@ export const Project = () => {
           <p className="w-fit px-2">
             <Link to="/">Hjem</Link> / {project.title}
           </p>
-          <Link to="/">
-            <div className="more-btn win-btn h-8 w-8 flex justify-center items-center">
+          <Link to="/" aria-label="Minimize">
+            <div
+              className="more-btn win-btn h-8 w-8 flex justify-center items-center"
+              aria-label="Minimize"
+            >
               <FaWindowMinimize />
             </div>
           </Link>
