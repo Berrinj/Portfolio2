@@ -1,4 +1,5 @@
 # Portfolio 2 CA
+[![Netlify Status](https://api.netlify.com/api/v1/badges/47fa6699-3697-455c-b32a-c145e9f6ab36/deploy-status)](https://app.netlify.com/sites/berremarte/deploys)
 
 ![Portfolio 2 Preview](src/assets/images/projects/portfolio2-preview.png) <br>
 
