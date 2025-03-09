@@ -144,16 +144,16 @@ function Home() {
           <p className="text-xl">Utdanning: </p>
         </div>
         <div className="content p-3">
-          <h2 className="border-1 border-selago">2025</h2>
+          <h2 className="border-1 border-selago bg-selago/10 ps-1">2025</h2>
           <ul>
-            <li>
+            <li className="m-2">
               <span className="font-semibold">Mars: </span>Fullført 2-årige
               Front End Development-utdanning ved Noroff
             </li>
           </ul>
-          <h2 className="border-1 border-selago">2018</h2>
+          <h2 className="border-1 border-selago bg-selago/10 ps-1">2018</h2>
           <ul>
-            <li>
+            <li className="m-2">
               <span className="font-semibold">Oktober: </span> Fagbrev Barne- og
               ungdomsarbeider faget
             </li>

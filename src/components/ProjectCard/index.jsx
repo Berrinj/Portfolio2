@@ -66,7 +66,7 @@ export const ProjectCard = ({ project }) => {
   return (
     <>
       <div className="project-card my-2 min-w-[290px] w-9/10 sm:w-3/10 border-2 border-selago text-white flex flex-col">
-        <span className="flex justify-between items-center p-2">
+        <span className="flex justify-between items-center p-2 bg-selago/10">
           <h2 className="text-xl">{project.title}</h2>
           <Link to={`/projects/${project.id}`}>
             <button className="hover:rounded-non win-btn p-1">
