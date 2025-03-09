@@ -50,6 +50,7 @@ export const Projects = [
     additonalInfo:
       "Om du ønsker å teste hele siden trenger du en bruker. Denne brukeren må ha en @stud.noroff.no email for kunne registrere seg, men denne kan være fiktiv. P.S: Dette prosjektet er bygget på Noroff sin API, så det er forventet at du ikke bryter vanlig etikk og moral da den er åpen for alle studenter og lærere + besøkende.",
     image: bidhub,
+    skills: mapSkillsToObjects(["javaScript", "sass", "html", "bootstrap"]),
     netlifyUrl: "https://bidhub-auction.netlify.app/",
     githubUrl: "https://github.com/Berrinj/BidHub",
     filter: "school",
