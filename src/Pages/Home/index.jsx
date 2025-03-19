@@ -92,7 +92,7 @@ function Home() {
                   disse årene og er klar for nye utfordringer i arbeidslivet!
                 </p>
 
-                <p>
+                <p className="my-2">
                   Jeg er en utadvent person med mye pågangsmot og stor lærelyst.
                   Jeg har de to siste årene kobimnert familieliv og 80-100%
                   stilling i barnehage med det å være fulltidsstudent på Noroff.
@@ -101,9 +101,12 @@ function Home() {
                   at jeg lærer raskt og stortrives bak en PC-skjerm med VSC opp
                   på skjermen. Jeg elsker å se resultater og er grundig i jobben
                   jeg gjør. Jeg har fokus på hele bildet, og ønsker å produsere
-                  et så helhetlig produkt som overhodet mulig. Tørr nettopp DU å
-                  satse på meg lover jeg at du ikke vil angre, for dette brenner
-                  jeg for!
+                  et så helhetlig produkt som overhodet mulig.
+                </p>
+
+                <p>
+                  Tørr nettopp DU å satse på meg lover jeg at du ikke vil angre,
+                  for dette brenner jeg for!
                 </p>
               </div>
               <div className="contact-icons flex gap-3 py-6 justify-center">
