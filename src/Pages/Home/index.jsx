@@ -65,10 +65,9 @@ function Home() {
               className="sm:hidden w-32 h-auto max-h-[170px] object-contain border-2 border-selago me-2"
             />
             <p className="text-white pe-2">
-              34 år gammel, bor i Trondheim sammen med samboer og to barn. Jeg
-              kommer opprinnelig fra Grong lenger nord i Trøndelag. Etter mange
-              år i barnahge er jeg nå utdannet som Front-end Developer og er
-              klar for nye utfordringer i en ny og spennede hverdag.
+              34 år gammel, bor i Trondheim sammen med samboer og to barn. Etter
+              mange år i barnahge er jeg nå utdannet som Front-end Developer og
+              er klar for nye utfordringer i en ny og spennede hverdag.
             </p>
           </div>
           {isAboutOpen && (
