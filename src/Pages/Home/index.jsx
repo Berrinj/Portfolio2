@@ -61,20 +61,24 @@ function Home() {
           <div className="first-look flex">
             <img
               src={myImage}
-              alt="Marte"
+              alt="Marte, profilbilde"
               className="sm:hidden w-32 h-auto max-h-[170px] object-contain border-2 border-selago me-2"
             />
             <p className="text-white pe-2">
-              34 år gammel, bor i Trondheim men kommer opprinnelig fra Grong.
-              Har en lang karriere bak meg fra barnehage, men har nå utdannet
-              meg som Front-end Developer.
+              34 år gammel, bor i Trondheim sammen med samboer og to barn. Jeg
+              kommer opprinnelig fra Grong lenger nord i Trøndelag, der vokste
+              jeg opp på gård sammen med mine foreldre og besteforeldre, tre
+              søsken, hester, katter, hunder og en haug med sauer. Jeg har en
+              lang karriere bak meg fra barnehage, men har nå utdannet meg som
+              Front-end Developer og er klar for nye utfordringer i en ny og
+              spennede hverdag.
             </p>
           </div>
           {isAboutOpen && (
             <>
               <div className="about-text">
                 <p className="my-2">
-                  Jeg har jobbet i barnehage de siste 10 årene, men jeg har
+                  Jeg har jobbet i barnehage de siste 14 årene, men jeg har
                   alltid visst at jeg ville gå i en helt annen retning. På
                   fritiden har koding vært en hobby så lenge jeg kan huske, men
                   med fulltidsjobb, barn og lite fritid for meg selv, fikk jeg
@@ -86,6 +90,20 @@ function Home() {
                   Development hos Noroff School of Technology and Digital Media,
                   og jeg er utrolig stolt over hva jeg har lært meg og produsert
                   disse årene og er klar for nye utfordringer i arbeidslivet!
+                </p>
+
+                <p>
+                  Jeg er en utadvent person med mye pågangsmot og stor lærelyst.
+                  Jeg har de to siste årene kobimnert familieliv og 80-100%
+                  stilling i barnehage med det å være fulltidsstudent på Noroff.
+                  Dette har vist meg at jeg jobber meget godt under tidspress,
+                  at jeg er fokusert der fokuset skal ligge til enhver tid, og
+                  at jeg lærer raskt og stortrives bak en PC-skjerm med VSC opp
+                  på skjermen. Jeg elsker å se resultater og er grundig i jobben
+                  jeg gjør. Jeg har fokus på hele bildet, og ønsker å produsere
+                  et så helhetlig produkt som overhodet mulig. Tørr nettopp DU å
+                  satse på meg lover jeg at du ikke vil angre, for dette brenner
+                  jeg for!
                 </p>
               </div>
               <div className="contact-icons flex gap-3 py-6 justify-center">
