@@ -66,12 +66,9 @@ function Home() {
             />
             <p className="text-white pe-2">
               34 år gammel, bor i Trondheim sammen med samboer og to barn. Jeg
-              kommer opprinnelig fra Grong lenger nord i Trøndelag, der vokste
-              jeg opp på gård sammen med mine foreldre og besteforeldre, tre
-              søsken, hester, katter, hunder og en haug med sauer. Jeg har en
-              lang karriere bak meg fra barnehage, men har nå utdannet meg som
-              Front-end Developer og er klar for nye utfordringer i en ny og
-              spennede hverdag.
+              kommer opprinnelig fra Grong lenger nord i Trøndelag. Etter mange
+              år i barnahge er jeg nå utdannet som Front-end Developer og er
+              klar for nye utfordringer i en ny og spennede hverdag.
             </p>
           </div>
           {isAboutOpen && (
