@@ -66,7 +66,7 @@ function Home() {
             />
             <p className="text-white pe-2">
               34 år gammel, bor i Trondheim sammen med samboer og to barn. Etter
-              mange år i barnahge er jeg nå utdannet som Front-end Developer og
+              mange år i barnehage er jeg nå utdannet som Front-end Developer og
               er klar for nye utfordringer i en ny og spennede hverdag.
             </p>
           </div>
