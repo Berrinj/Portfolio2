@@ -65,10 +65,11 @@ function Home() {
               className="sm:hidden w-32 h-auto max-h-[170px] object-contain border-2 border-selago me-2"
             />
             <p className="text-white pe-2">
-              Jeg er 34 år gammel og bor i Trondheim sammen med samboer og to
+              Jeg er 35 år gammel og bor i Trondheim sammen med samboer og to
               barn. Etter mange år i barnehage som barne -og ungdomsarbeider har
               jeg tatt et etterlengtet steg og utdannet meg til
-              frontend-utvikler.
+              frontend-utvikler, og jober nå som utvikler hos YouPlus
+              Livsforsikring.
             </p>
           </div>
           {isAboutOpen && (
@@ -97,10 +98,6 @@ function Home() {
                   resultater av arbeidet mitt og er grundig i jobben jeg gjør.
                   Jeg har fokus på hele bildet, og ønsker å produsere et
                   gjennomført produkt.
-                </p>
-
-                <p>
-                  Tørr dere å satse på meg lover jeg at dere ikke vil angre!
                 </p>
               </div>
               <div className="contact-icons flex gap-3 py-6 justify-center">
