@@ -77,20 +77,20 @@ function Home() {
               <div className="about-text">
                 <p className="my-2">
                   På fritiden har koding vært en hobby siden tenårene, men med
-                  fulltidsjobb og barn har det vært vanskelig å få mettet
-                  lærelysten.
+                  fulltidsjobb og barn var det vanskelig å få mettet lærelysten.
                 </p>
 
                 <p>
                   I mars 2023 begynte jeg på fulltids-utdanningen `Front-End
                   Development` hos Noroff School of Technology and Digital
                   Media. Jeg er utrolig stolt over hva jeg oppnådd iløpet av
-                  disse årene og er klar for nye utfordringer i arbeidslivet!
+                  disse årene og gleden var stor da jeg kom raskt fikk meg
+                  utvikler jobb!
                 </p>
 
                 <p className="my-2">
                   Jeg er utadvent, har mye pågangsmot og stor lærelyst. Jeg har
-                  de to siste årene kobimnert familieliv og 80-100% stilling i
+                  de to siste årene kombinert familieliv og 80-100% stilling i
                   barnehage med det å være fulltidsstudent på Noroff. Dette har
                   vist meg at jeg jobber meget godt under tidspress, at jeg er
                   fokusert og lærer raskt, og at jeg stortrives og at jeg
