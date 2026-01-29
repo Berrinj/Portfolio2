@@ -66,10 +66,9 @@ function Home() {
             />
             <p className="text-white pe-2">
               Jeg er 35 år gammel og bor i Trondheim sammen med samboer og to
-              barn. Etter mange år i barnehage som barne -og ungdomsarbeider har
-              jeg tatt et etterlengtet steg og utdannet meg til
-              frontend-utvikler, og har siden august 2025 jobbet som utvikler
-              hos YouPlus Livsforsikring.
+              barn. Etter mange år i barnehage startet jeg i 2023 på
+              frontend-utvikler utdanning, og har siden august 2025 jobbet som
+              utvikler hos YouPlus Livsforsikring.
             </p>
           </div>
           {isAboutOpen && (
@@ -77,27 +76,29 @@ function Home() {
               <div className="about-text">
                 <p className="my-2">
                   På fritiden har koding vært en hobby siden tenårene, men med
-                  fulltidsjobb og barn var det vanskelig å få mettet lærelysten.
+                  fulltidsjobb og barn var det vanskelig å få prioritert nok tid
+                  til det. Etter å ha tatt flere nettkurs og laget små
+                  prosjekter for meg selv, bestemte jeg meg for å satse fullt på
+                  ny karriere.
                 </p>
 
                 <p>
-                  I mars 2023 begynte jeg på fulltids-utdanningen `Front-End
-                  Development` hos Noroff School of Technology and Digital
-                  Media. Jeg er utrolig stolt over hva jeg oppnådd iløpet av
-                  disse årene og gleden var stor da jeg kom raskt fikk meg
-                  utvikler jobb!
+                  I mars 2023 begynte jeg på 2-årig fulltids-utdanningen
+                  `Front-End Development` hos Noroff School of Technology and
+                  Digital Media. Jeg er utrolig stolt over hva jeg oppnådde i
+                  løpet av de to årene, og gleden var stor da jeg fikk meg
+                  utvikler jobb innen en måned etter fullført utdanning!
                 </p>
 
                 <p className="my-2">
-                  Jeg er utadvent, har mye pågangsmot og stor lærelyst. Jeg har
-                  de to siste årene kombinert familieliv og 80-100% stilling i
-                  barnehage med det å være fulltidsstudent på Noroff. Dette har
-                  vist meg at jeg jobber meget godt under tidspress, at jeg er
-                  fokusert og lærer raskt, og at jeg stortrives og at jeg
-                  stortrives med programmering og problemløsing. Jeg elsker å se
-                  resultater av arbeidet mitt og er grundig i jobben jeg gjør.
-                  Jeg har fokus på hele bildet, og ønsker å produsere et
-                  gjennomført produkt.
+                  Jeg er utadvent, har mye pågangsmot og stor lærelyst. Jeg
+                  kombinerte familieliv og 80-100% stilling i barnehage med det
+                  å være fulltidsstudent på Noroff. Dette har vist meg at jeg
+                  jobber meget godt under tidspress, at jeg er fokusert og lærer
+                  raskt, og at jeg stortrives med programmering og
+                  problemløsing. Jeg elsker å se resultater av arbeidet mitt og
+                  er grundig i jobben jeg gjør. Jeg har fokus på hele bildet, og
+                  ønsker å produsere et gjennomført produkt.
                 </p>
               </div>
               <div className="contact-icons flex gap-3 py-6 justify-center">
