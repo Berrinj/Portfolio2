@@ -68,8 +68,8 @@ function Home() {
               Jeg er 35 år gammel og bor i Trondheim sammen med samboer og to
               barn. Etter mange år i barnehage som barne -og ungdomsarbeider har
               jeg tatt et etterlengtet steg og utdannet meg til
-              frontend-utvikler, og har jobbet som utvikler hos YouPlus
-              Livsforsikring siden august 2025.
+              frontend-utvikler, og har siden august 2025 jobbet som utvikler
+              hos YouPlus Livsforsikring.
             </p>
           </div>
           {isAboutOpen && (
