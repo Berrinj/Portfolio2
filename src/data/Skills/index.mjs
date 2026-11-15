@@ -80,6 +80,11 @@ export const skills = {
     id: 16,
     name: "Rest API",
   },
+  angular: {
+    id: 17,
+    name: "Angular",
+    image: icon.angular,
+  },
 };
 
 // export const skillIcons = {

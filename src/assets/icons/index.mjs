@@ -13,6 +13,7 @@ import typescript from "./typescript.png";
 import vite from "./vite.png";
 import sass from "./sass.png";
 import wordpress from "./wordpress.png";
+import angular from "./angular.png";
 
 export {
   figma,
@@ -30,4 +31,5 @@ export {
   vite,
   sass,
   wordpress,
+  angular,
 };
