@@ -9,6 +9,7 @@ import { SkillsBadge } from "components/SkillsBadge";
 import { skills } from "data/Skills";
 import myImage from "assets/images/profilbilde-300.png";
 import { Link } from "react-router-dom";
+import { myAge } from "data/age"
 
 const convertSkillsToArray = () => {
   return Object.values(skills);
@@ -65,7 +66,7 @@ function Home() {
               className="sm:hidden w-32 h-auto max-h-[170px] object-contain border-2 border-selago me-2"
             />
             <p className="text-white pe-2">
-              Jeg er 35 år gammel og bor i Trondheim sammen med samboer og to
+              Jeg er {myAge} år gammel og bor i Trondheim sammen med samboer og to
               barn. Etter mange år i barnehage som barne -og ungdomsarbeider har
               jeg tatt et etterlengtet steg og utdannet meg til
               frontend-utvikler, og har jobbet som utvikler hos YouPlus
